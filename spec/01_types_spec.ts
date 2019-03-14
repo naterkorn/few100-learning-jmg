@@ -47,10 +47,10 @@ describe('types', () => {
             //So scope is not limited to the following if statement
             if (age > 21) {
                 var message = 'old enough';
-                let message2 = 'old enough';
+                //let message2 = 'old enough';
             }
 
-            expect(message2).toBe('old enough'); //This is a 'build error' for Typescript
+            //expect(message2).toBe('old enough'); //This is a 'build error' for Typescript
             expect(message).toBe('old enough'); //This is not
 
         });
